@@ -19,7 +19,7 @@ namespace ensyuu3
             Console.WriteLine("お寿司おみくじ");
             Console.WriteLine("１：まぐろ２：サーモン３：いくら");
             int sushi = int.Parse(Console.ReadLine());
-            switch (sushi)
+            switch (sushi)//変数sushiに代入された数値による分岐
             {
                 case 1:
                     Console.WriteLine("大吉");
